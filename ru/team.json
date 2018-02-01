@@ -1,0 +1,171 @@
+{
+  "advisers": [
+      {
+          "name": "Дмитрий Дэйн",
+          "position": "Adviser",
+          "text": "Выдающийся криптограф – входит в ассоциацию криптографов мира, разработчик технологий Wi-Fi и LTE, владелец и основатель компании «Virgil Security» (США) – компания занимается шифрованием и криптографией. Входит в ассоциацию криптографов мира.",
+          "image": "member1.png",
+          "soc_1": "http://linkedin.com/in/dmitrydain",
+          "soc_2": "https://twitter.com/dmitrydain",
+          "soc_3": ""
+      },
+      {
+          "name": "Фред Ледбеттер",
+          "position": "Adviser",
+          "text": "Был генеральным директором Imaginet/Czech Telecom. Был коммерческим директором в Virgin Connect, управляющим партнером Golden Telecom. Большой опыт работы в области Wi-Fi, интернета, беспроводной и мобильной связи в крупных, средних компаниях и стартапах.",
+          "image": "member2.png",
+          "soc_1": "https://linkedin.com/in/fredledbetter",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Тиерри Де Гортер",
+          "position": "Adviser",
+          "text": "Окончил Принстонский университет, факультет корпаративные финансы. Вдохновленный современным ФинТехом, он погрузился в технологии блокчейн. На данный монент консультант и разработчик решений для децентрализированных инфраструктурных проектов. Терри биткоин энтузиаст и филантроп.",
+          "image": "member16.png",
+          "soc_1": "https://www.linkedin.com/in/thierry-de-gorter-7088a2a0/",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Ягуб Рахимов",
+          "position": "Media Advisor",
+          "text": "Серийный предприниматель, работающий в Финтех экосистеме. Инвестируя с 16 лет, Ягуб является трейдером с наградами и опытным Крипто и Биткоин инвестором с середины 2009 года. У него есть видение, что машинное обучение в сочетании с технологией Blockchain определит будущее экосистемы Финтеха.",
+          "image": "member20.jpg",
+          "soc_1": "https://www.linkedin.com/in/yrahimov/",
+          "soc_2": "https://twitter.com/yrahimov",
+          "soc_3": "https://www.facebook.com/yrahimov"
+      }
+
+   ],
+   "members": [
+      {
+          "name": "Илья Яшин",
+          "position": "Co-Founder & CEO",
+          "text": "Предприниматель, более 17 лет занимается проектами в области IT. Сооснователь IT- интегратора. Сооснователь сервисов Adrenta и Radius Wi-Fi.",
+          "image": "member3.jpg",
+          "soc_1": "https://www.linkedin.com/in/%D0%B8%D0%BB%D1%8C%D1%8F-%D1%8F%D1%88%D0%B8%D0%BD-354b8295/",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/isyashin"
+      },
+      {
+          "name": "Ян Сепиашвили",
+          "position": "Co-Founder",
+          "text": "Предприниматель, кандидат медицинских наук, более 10 лет занимается проектами в области IT, рекламы и недвижимости. Управляющий партнёр и сооснователь сервисов Adrenta и Radius Wi-Fi.",
+          "image": "member4.png",
+          "soc_1": "https://www.linkedin.com/in/yan-sepiashvily-1aa9b3153/",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/yan.sepiah"
+      },
+      {
+          "name": "Дмитрий Колезнев",
+          "position": "Chief Operation Officer",
+          "text": "Работал генеральным директором и был акционером в «ВорлдТелеком». Был генеральным директором и акционером в «Национальная платежная система» и «Дельта Телеком».",
+          "image": "member5.png",
+          "soc_1": "https://www.linkedin.com/in/dmitry-koleznev-581742153/",
+          "soc_2": "",
+          "soc_3": "https://m.facebook.com/dmitry.koleznev.5"
+      },
+      {
+          "name": "Ларри Кэмерон",
+          "position": "Technical Information Security Officer",
+          "text": "Многолетний опыт работы техническим директором в сфере информационных технологий. Практические навыки по работе с дата-центрами, системной архитектурой, системами управления, поддержки и кибер-безопасности.",
+          "image": "member11.png",
+          "soc_1": "https://www.linkedin.com/in/larrycameron80/",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Анастасия Приказчикова",
+          "position": "Маркетинг & PR",
+          "text": "Имеет большой опыт управления и разработки маркетинговых решений для запуска проектов в России и за рубежом. Основатель благотворительного фонда «Подарок ангелу».",
+          "image": "member15.png",
+          "soc_1": "https://www.linkedin.com/in/anastasia-prikazchikova-a732bb157",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/anastasia.kh.79"
+      },
+      {
+          "name": "Тимур Косых",
+          "position": "CBDO",
+          "text": "Тех энтузиаст и космополит. Основатель нескольких ИТ стартапов в Ирландии. Руководил проектами в Азии, Европе и Америке. Верит в технологическую сингулярность.",
+          "image": "member9.png",
+          "soc_1": "https://www.linkedin.com/in/timkosykh",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/tim.kosykh"
+      },
+      {
+          "name": "Ананд Гупта",
+          "position": "Big Data strategy",
+          "text": "Окончил Индийский Институт Технологии, многолетний опыт в реализация решений «Big Data» в компаниях «Nokia» и «Mitel»",
+          "image": "member12.png",
+          "soc_1": "https://www.linkedin.com/in/anand-gupta-438151/",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Юрий Половинкин",
+          "position": "Technical Director",
+          "text": "Принимал участие в запуске Wi-Fi в Московском метро. Занимался разработкой и запуском собственного хот-спот решения. Занимался разработкой и внедрением информационных систем в крупных компаниях.",
+          "image": "member6.png",
+          "soc_1": "https://www.linkedin.com/in/yury-polovinkin-b0022535",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/yury.polovinkin"
+      },
+      {
+          "name": "Бхавик Лимбани",
+          "position": "App Developer",
+          "text": "Талантливый разработчик мобильных приложений. Java-Web разработчик. Blockchain-разработчик.",
+          "image": "member13.png",
+          "soc_1": "https://www.linkedin.com/in/bhaviklimbani/",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Александр Виноградов",
+          "position": "Commercial manager",
+          "text": "Работал в Телеком отрасли: управлял продажами и продуктами.",
+          "image": "member7.png",
+          "soc_1": "https://www.linkedin.com/in/alavinogradov",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Джагадиш Чаннагири",
+          "position": "Big Data expert",
+          "text": "Руководитель проектов по разработке программного обеспечения. Большой опыт работы в разработке продуктов для решений Big Data.",
+          "image": "member14.png",
+          "soc_1": "https://www.linkedin.com/in/jagadishchannagiri/",
+          "soc_2": "",
+          "soc_3": ""
+      },
+      {
+          "name": "Евгений Хашин",
+          "position": "CTO & Strategy",
+          "text": "Соучредитель первой Российской PaaS «Dokkur», СТО инфраструктурного провайдера «Swanager».",
+          "image": "member8.png",
+          "soc_1": "https://ru.linkedin.com/in/adastreamer",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/adastreamer"
+      },
+      {
+          "name": "Мохамед Шоайеб",
+          "position": "Project manager",
+          "text": "Менеджер по развитию бизнеса и продажам. Создание партнёрства. Разработка инвестиционных услуг (ПАММ-счетов) CFDs на валютном контракте. Торговля фьючерсами и акциями.",
+          "image": "member10.png",
+          "soc_1": "https://www.linkedin.com/in/ACoAABC3iYQBDFs5hfcaKSFXzJ6ogk8jItQLmOk/",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/mohamedsshoieb"
+      },
+      {
+          "name": "Алиша Голден",
+          "position": "Marketing & PR in North America",
+          "text": "Стратег роста и медиа специалист с 11-летним опытом работы в растущих и масштабирующихся стартапах и брендах на 3-х континентах. Алиша хорошо разбирается в создании тройной нижней линии для клиентов, а также  технологии экипировки транспортных средств, инвестиций и основных средств массовой информации для привлечения клиентов. Клиенты Alisha были представлены в Fast Company, INC, Wired, Forbes, Origin Magazine, Новости ABC, The Huffington Post, New York Daily News (чтобы назвать несколько), а также разработаны партнерские отношения с брендами из силиконовой долины, техническими и по путешествиям гигантскими компаниями , Гогоботом, Давайте сотрудничать Нью-Йорк, закуски KIND, NBC Universal, Проект опыления, Mashable, ООН, WEF, ChooseATL и AirBnB.",
+          "image": "member19.jpg",
+          "soc_1": "",
+          "soc_2": "",
+          "soc_3": "https://www.facebook.com/IamAlishaGolden?ref=br_rs"
+      }
+
+   ]
+
+}

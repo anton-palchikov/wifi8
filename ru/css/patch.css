@@ -1,0 +1,159 @@
+.navbar-nav .nav-item.login-selector {
+    padding-top: 5px;
+}
+
+.header__title {
+	font-size: 108.5px;
+}
+
+.header__title span {
+  	font-size: 168px;
+}
+
+.header__title--sub {
+    font-size: 34px;
+    margin-top: -168px;
+    margin-bottom: 118px;
+}
+
+.countdown__title {
+	font-size: 23px;
+}
+
+.countdown__days .item__day {
+	font-size: 48px;
+}
+
+.btn__pulse {
+	font-size: 25px;
+}
+
+.section__wetoken .wetoken__title {
+	font-size: 21px;
+}
+
+@media (max-width: 1920px) {
+	.navbar-nav .nav-item {
+    	font-size: 16px;
+	}
+
+	.header__title {
+		font-size: 89px;
+	}
+
+	.header__title span {
+  		display: inline;
+  		font-size: 136px;
+	}
+
+	.header__title--sub {
+    	font-size: 32px;
+    	margin-top: -146px;
+    	margin-bottom: 114px;
+ 	}
+
+ 	.countdown__title {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.navbar-nav .nav-item {
+    	font-size: 14px;
+    	text-align: center;
+	}
+
+	.navbar-nav .nav-item.login-selector {
+    	padding-top: 7px;
+	}
+
+	.header__title {
+	 	font-size: 74px;
+	}
+
+	.header__title span {
+  		font-size: 113px;
+	}
+
+	.header__title--sub {
+    	font-size: 25px;
+    	margin-top: -116px;
+    	margin-bottom: 100px;
+ 	}
+
+ 	.header__text {
+ 		margin-bottom: 75px;
+ 	}
+	
+}
+
+@media (max-width: 991px) {
+	.header__title {
+	 	font-size: 95px;
+	}
+
+	.header__title span {
+  		font-size: 140px;
+	}
+
+	.header__title--sub {
+    	font-size: 25px;
+    	margin-top: -138px;
+    	margin-right: 20px;
+ 	}
+ 	.section__company .about__item .item__desc--small {
+ 		font-size: 15px;
+ 	}
+}
+
+@media (max-width: 767px) {
+	.header__title {
+	 	font-size: 71px;
+	}
+
+	.header__title span {
+  		font-size: 111px;
+	}
+
+	.header__title--sub {
+    	font-size: 25px;
+    	margin-top: -116px;
+    	margin-right: 0;
+ 	}
+}
+
+@media (max-width: 575px) {
+	.header__title {
+	 	font-size: 12.5vw;
+	}
+
+	.header__title span {
+  		font-size: 20vw;
+	}
+
+	.header__title--sub {
+    	font-size: 4.5vw;
+    	margin-top: -21vw;
+    	margin-right: 0;
+ 	}
+
+ 	 .countdown__title {
+		font-size: 15px;
+	}
+
+ 	.countdown__days .item__day {
+		font-size: 35px;
+	}
+
+	.countdown__text--main .text__title {
+		font-size: 12px;
+	}
+
+	.countdown__text--main .text__value {
+		font-size: 20px;
+	}
+
+	.countdown__text--main .text__title--mark {
+		text-align: center;
+	}
+}
