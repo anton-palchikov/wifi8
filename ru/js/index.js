@@ -13,184 +13,186 @@ var cookie = getCookie('subscribe');
 
 $(window).on('load', function () {
 
-        $('#preloader').fadeOut();
+    $('#preloader').fadeOut();
 
-        $('.header__earth').animate({
-            width: '1400px',
-            height: '1400px',
-            marginLeft: '-700px',
-            top: '45vh',
+    $('.header__earth').animate({
+        width: '1400px',
+        height: '1400px',
+        marginLeft: '-700px',
+        top: '45vh',
+    }, 1000);
+
+    setTimeout(function () {
+
+        $('.section__content--faq .section__faq').animate({
+            opacity: 1,
         }, 1000);
 
-        setTimeout(function(){
+        $('.section__content--faq .section__title').animate({
+            left: 0,
+            opacity: .4
+        }, 1000)
 
-            $('.section__content--faq .section__faq').animate({
-                opacity: 1,
-            }, 1000);
-
-            $('.section__content--faq .section__title').animate({
-                left: 0,
-                opacity: .4
-            }, 1000)
-
-            $('.header').css({
-                backgroundPosition: '50% 20%',
-                opacity: 1
-            });
-
-            $('.header__text').css({
-                opacity: 1,
-                bottom: 0,
-            });
-
-            $('.header__btn--1').css({
-                opacity: 1,
-                left: 0,
-            });
-
-            $('.header__btn--2').css({
-                opacity: 1,
-                right: 0,
-            });
-
-            $('.navbar').animate({
-                opacity: 1
-            }, 1000);
-
-        },400);
-
-
-
-        setTimeout(function(){
-            $('.header__title').animate({
-                opacity: .4,
-                top: 0
-            }, 1000);
-        },500);
-
-        setTimeout(function(){
-            $('.header__title--sub').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },550);
-
-        setTimeout(function(){
-            $('.countdown__title').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },650);
-
-        setTimeout(function(){
-            $('.countdown__clock').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },650);
-
-        setTimeout(function(){
-            $('.btn__buy').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },650, function() {
-            $('.border-blik').css({
-                opacity: 1
-            });
+        $('.header').css({
+            backgroundPosition: '50% 20%',
+            opacity: 1
         });
 
-        // SOCIAL
+        $('.header__text').css({
+            opacity: 1,
+            bottom: 0,
+        });
 
-        setTimeout(function(){
+        $('.header__btn--1').css({
+            opacity: 1,
+            left: 0,
+        });
 
-            $('.link--1').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1400);
+        $('.header__btn--2').css({
+            opacity: 1,
+            right: 0,
+        });
 
-        setTimeout(function(){
-            $('.link--2').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1500);
+        $('.navbar').animate({
+            opacity: 1
+        }, 1000);
 
-        setTimeout(function(){
-            $('.link--3').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1600);
+    }, 400);
 
-        setTimeout(function(){
-            $('.link--4').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1700);
 
-        setTimeout(function(){
-            $('.link--5').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1800);
 
-        setTimeout(function(){
-            $('.link--6').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1900);
+    setTimeout(function () {
+        $('.header__title').animate({
+            opacity: .4,
+            top: 0
+        }, 1000);
+    }, 500);
 
-        
-        // setTimeout(function(){
-        //         $('.subscribe__overlay').fadeIn(400);
-        //     },1000);
-        
+    setTimeout(function () {
+        $('.header__title--sub').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    }, 550);
 
-        if (cookie == null || cookie == undefined) {
-        
-            
-            setTimeout(function(){
-                $('.subscribe__overlay').fadeIn(400);
-            },5000);
+    setTimeout(function () {
+        $('.countdown__title').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    }, 650);
 
-            setCookie('subscribe', '1', {expires:0});
-            
-        }
+    setTimeout(function () {
+        $('.countdown__clock').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    }, 650);
 
-        var item = document.getElementById('company');
+    setTimeout(function () {
+        $('.btn__buy').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    }, 650, function () {
+        $('.border-blik').css({
+            opacity: 1
+        });
+    });
 
-        if ($(window).width() >= 576) {
-            if (item != null) {
-                var top = item.getBoundingClientRect().top;
-                if (top <= 0) {
-                    $('.btn__pulse--fixed').fadeIn(200);
-                } else {
-                    $('.btn__pulse--fixed').fadeOut(200);
-                }
+    // SOCIAL
+
+    setTimeout(function () {
+
+        $('.link--1').css({
+            opacity: 1,
+            transform: 'scale(' + 1 + ')'
+        });
+    }, 1400);
+
+    setTimeout(function () {
+        $('.link--2').css({
+            opacity: 1,
+            transform: 'scale(' + 1 + ')'
+        });
+    }, 1500);
+
+    setTimeout(function () {
+        $('.link--3').css({
+            opacity: 1,
+            transform: 'scale(' + 1 + ')'
+        });
+    }, 1600);
+
+    setTimeout(function () {
+        $('.link--4').css({
+            opacity: 1,
+            transform: 'scale(' + 1 + ')'
+        });
+    }, 1700);
+
+    setTimeout(function () {
+        $('.link--5').css({
+            opacity: 1,
+            transform: 'scale(' + 1 + ')'
+        });
+    }, 1800);
+
+    setTimeout(function () {
+        $('.link--6').css({
+            opacity: 1,
+            transform: 'scale(' + 1 + ')'
+        });
+    }, 1900);
+
+
+    // setTimeout(function(){
+    //         $('.subscribe__overlay').fadeIn(400);
+    //     },1000);
+
+
+    if (cookie == null || cookie == undefined) {
+
+
+        setTimeout(function () {
+            $('.subscribe__overlay').fadeIn(400);
+        }, 5000);
+
+        setCookie('subscribe', '1', {
+            expires: 0
+        });
+
+    }
+
+    var item = document.getElementById('company');
+
+    if ($(window).width() >= 576) {
+        if (item != null) {
+            var top = item.getBoundingClientRect().top;
+            if (top <= 0) {
+                $('.btn__pulse--fixed').fadeIn(200);
+            } else {
+                $('.btn__pulse--fixed').fadeOut(200);
             }
         }
+    }
 
-        $(".navbar-desktop, .navbar-collapse").on('click', 'a:not(a[href="blog.html"])', function (e) {
-            e.preventDefault();
+    $(".navbar-desktop, .navbar-collapse").on('click', 'a:not(a[href="blog.html"])', function (e) {
+        e.preventDefault();
 
-            var hash = $(this).attr("href");
-            var target = $(hash);
+        var hash = $(this).attr("href");
+        var target = $(hash);
 
-            $("html, body").animate({
-                scrollTop: target.offset().top - 100
-            }, 1000);
+        $("html, body").animate({
+            scrollTop: target.offset().top - 100
+        }, 1000);
 
-        });
-        
+    });
+
 });
 
 
-$(window).scroll(function() {
+$(window).scroll(function () {
 
     var item = document.getElementById('company');
 
@@ -214,25 +216,25 @@ $(window).scroll(function() {
     var body_ = Math.round(body) / 100;
 
     var items = $('.section__animated');
-            
+
     for (var i = 0; i < items.length; i++) {
-        if($('.section__animated:eq('+i+')').offset().top - scroll <= $(window).height() / 1.2) {
-            $('.section__animated:eq('+i+')').animate({
+        if ($('.section__animated:eq(' + i + ')').offset().top - scroll <= $(window).height() / 1.2) {
+            $('.section__animated:eq(' + i + ')').animate({
                 opacity: 1,
             }, 1000);
 
             if ($(window).width() <= 575) {
-                $('.section__animated:eq('+i+') .section__title').animate({
+                $('.section__animated:eq(' + i + ') .section__title').animate({
                     opacity: .4,
                     left: '15',
                 });
-            } else if($(window).width() <= 992) {
-                $('.section__animated:eq('+i+') .section__title').animate({
+            } else if ($(window).width() <= 992) {
+                $('.section__animated:eq(' + i + ') .section__title').animate({
                     opacity: .4,
                     left: '30',
                 });
             } else {
-                $('.section__animated:eq('+i+') .section__title').animate({
+                $('.section__animated:eq(' + i + ') .section__title').animate({
                     opacity: .4,
                     left: '100',
                 });
@@ -242,22 +244,43 @@ $(window).scroll(function() {
     }
 
     $('.body__bg').css({
-        'top':  - (scroll / body_ ) + '%'
+        'top': -(scroll / body_) + '%'
     });
-    
 
-    if($('.section__structure--ico').offset().top - scroll <= $(window).height() / 1.2) {
-        
+
+    if ($('.section__structure--ico').offset().top - scroll <= $(window).height() / 1.2) {
+
 
         var dataset = [
-            
-            { name: 'FUTURE DEVELOP',   count: $('.chart .progressbar:eq(0)').data('value'), },
-            { name: 'ICO ',             count: $('.chart .progressbar:eq(1)').data('value'), },
-            { name: 'PRE-ICO',          count: $('.chart .progressbar:eq(2)').data('value'), },
-            { name: 'FOUNDERS',         count: $('.chart .progressbar:eq(3)').data('value'), },
-            { name: 'TEAM',             count: $('.chart .progressbar:eq(4)').data('value'), },
-            { name: 'ADVISER',          count: $('.chart .progressbar:eq(5)').data('value'), },
-            { name: 'BOUNTY',           count: $('.chart .progressbar:eq(6)').data('value'), },
+
+            {
+                name: 'FUTURE DEVELOP',
+                count: $('.chart .progressbar:eq(0)').data('value'),
+            },
+            {
+                name: 'ICO ',
+                count: $('.chart .progressbar:eq(1)').data('value'),
+            },
+            {
+                name: 'PRE-ICO',
+                count: $('.chart .progressbar:eq(2)').data('value'),
+            },
+            {
+                name: 'FOUNDERS',
+                count: $('.chart .progressbar:eq(3)').data('value'),
+            },
+            {
+                name: 'TEAM',
+                count: $('.chart .progressbar:eq(4)').data('value'),
+            },
+            {
+                name: 'ADVISER',
+                count: $('.chart .progressbar:eq(5)').data('value'),
+            },
+            {
+                name: 'BOUNTY',
+                count: $('.chart .progressbar:eq(6)').data('value'),
+            },
 
         ];
 
@@ -276,39 +299,60 @@ $(window).scroll(function() {
             status = 0;
         }
 
-        
+
 
         var items = $('.chart').find('li.progressbar');
-                    
-        setTimeout(function(){
+
+        setTimeout(function () {
 
             for (var i = 0; i < items.length; i++) {
 
-            $('.chart li.progressbar:eq('+i+')').css({
-                backgroundColor: $('.chart li.progressbar:eq('+i+')').data('color'),
-            });
+                $('.chart li.progressbar:eq(' + i + ')').css({
+                    backgroundColor: $('.chart li.progressbar:eq(' + i + ')').data('color'),
+                });
 
-            $('.chart li.progressbar:eq('+i+')').animate({
-                width: $('.chart li.progressbar:eq('+i+')').data('value') * 2.5 + '%',
-            });
-        }
+                $('.chart li.progressbar:eq(' + i + ')').animate({
+                    width: $('.chart li.progressbar:eq(' + i + ')').data('value') * 2.5 + '%',
+                });
+            }
 
         }, 1000);
 
     }
 
-    if($('.section__structure--cost').offset().top - scroll <= $(window).height() / 1.2) {
-        
+    if ($('.section__structure--cost').offset().top - scroll <= $(window).height() / 1.2) {
+
 
         var dataset = [
-            
-            { name: 'FUTURE DEVELOP',   count: $('.chart_1 .progressbar:eq(0)').data('value'), },
-            { name: 'ICO ',             count: $('.chart_1 .progressbar:eq(1)').data('value'), },
-            { name: 'PRE-ICO',          count: $('.chart_1 .progressbar:eq(2)').data('value'), },
-            { name: 'FOUNDERS',         count: $('.chart_1 .progressbar:eq(3)').data('value'), },
-            { name: 'TEAM',             count: $('.chart_1 .progressbar:eq(4)').data('value'), },
-            { name: 'ADVISER',          count: $('.chart_1 .progressbar:eq(5)').data('value'), },
-            { name: 'BOUNTY',           count: $('.chart_1 .progressbar:eq(6)').data('value'), },
+
+            {
+                name: 'FUTURE DEVELOP',
+                count: $('.chart_1 .progressbar:eq(0)').data('value'),
+            },
+            {
+                name: 'ICO ',
+                count: $('.chart_1 .progressbar:eq(1)').data('value'),
+            },
+            {
+                name: 'PRE-ICO',
+                count: $('.chart_1 .progressbar:eq(2)').data('value'),
+            },
+            {
+                name: 'FOUNDERS',
+                count: $('.chart_1 .progressbar:eq(3)').data('value'),
+            },
+            {
+                name: 'TEAM',
+                count: $('.chart_1 .progressbar:eq(4)').data('value'),
+            },
+            {
+                name: 'ADVISER',
+                count: $('.chart_1 .progressbar:eq(5)').data('value'),
+            },
+            {
+                name: 'BOUNTY',
+                count: $('.chart_1 .progressbar:eq(6)').data('value'),
+            },
 
         ];
 
@@ -327,28 +371,28 @@ $(window).scroll(function() {
             status_1 = 0;
         }
 
-        
+
 
         var items = $('.chart_1').find('li.progressbar');
-                    
-        setTimeout(function(){
-            
+
+        setTimeout(function () {
+
             for (var i = 0; i < items.length; i++) {
 
-            $('.chart_1 li.progressbar:eq('+i+')').css({
-                backgroundColor: $('.chart_1 li.progressbar:eq('+i+')').data('color'),
-            });
+                $('.chart_1 li.progressbar:eq(' + i + ')').css({
+                    backgroundColor: $('.chart_1 li.progressbar:eq(' + i + ')').data('color'),
+                });
 
-            $('.chart_1 li.progressbar:eq('+i+')').animate({
-                width: $('.chart_1 li.progressbar:eq('+i+')').data('value') * 2.5 + '%',
-            });
-        }
+                $('.chart_1 li.progressbar:eq(' + i + ')').animate({
+                    width: $('.chart_1 li.progressbar:eq(' + i + ')').data('value') * 2.5 + '%',
+                });
+            }
 
         }, 1000);
 
     }
 
-    if($('.section__video').offset().top - scroll <= $(window).height() / 1.4 ) {
+    if ($('.section__video').offset().top - scroll <= $(window).height() / 1.4) {
         $('.video__content').css({
             opacity: 1,
             width: '100%',
@@ -356,17 +400,17 @@ $(window).scroll(function() {
         });
     }
 
-    if( scroll < $(window).height() ) {
+    if (scroll < $(window).height()) {
         $('.header__earth').css({
 
-            top: (($('.header').height() - scroll) / $('.header').height() * 100 - 55).toFixed(2)  + 'vh'
+            top: (($('.header').height() - scroll) / $('.header').height() * 100 - 55).toFixed(2) + 'vh'
 
         });
     }
 
     if (scroll >= 20) {
         $('#navigation').addClass('fixed');
-        
+
     } else {
         $('#navigation').removeClass('fixed');
     }
@@ -374,15 +418,15 @@ $(window).scroll(function() {
 });
 
 $.ajax({
-    url: "progress.json",
+    url: "/ru/progress.json",
     type: "GET",
     cache: false,
-    beforeSend: function() {
-        
-        
+    beforeSend: function () {
+
+
     },
 
-    success: function(response) {
+    success: function (response) {
         // console.log(response);
 
         // $('.progress__count').html(response.count);
@@ -392,85 +436,85 @@ $.ajax({
 
 
     },
-    error: function(response) {
+    error: function (response) {
         // console.log(response);
     }
 
 });
 
 $.ajax({
-    url: "team.json",
+    url: "/ru/team.json",
     type: "GET",
     cache: false,
-    beforeSend: function() {
-        
-        
+    beforeSend: function () {
+
+
     },
 
-    success: function(response) {
+    success: function (response) {
 
-        $.each( response.advisers, function( i, val ) {
+        $.each(response.advisers, function (i, val) {
 
             var social = '';
 
             if (response.advisers[i].soc_1 != '') {
-                social += '<a target="blank" class="member__link" href="'+response.advisers[i].soc_1+'"><i class="fa fa-linkedin" aria-hidden="true"></i></a>'
+                social += '<a target="blank" class="member__link" href="' + response.advisers[i].soc_1 + '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>'
             }
 
             if (response.advisers[i].soc_2 != '') {
-                social += '<a target="blank" class="member__link" href="'+response.advisers[i].soc_2+'"><i class="fa fa-twitter" aria-hidden="true"></i></a>'
+                social += '<a target="blank" class="member__link" href="' + response.advisers[i].soc_2 + '"><i class="fa fa-twitter" aria-hidden="true"></i></a>'
             }
 
             if (response.advisers[i].soc_3 != '') {
-                social += '<a target="blank" class="member__link" href="'+response.advisers[i].soc_3+'"><i class="fa fa-facebook" aria-hidden="true"></i></a>'
+                social += '<a target="blank" class="member__link" href="' + response.advisers[i].soc_3 + '"><i class="fa fa-facebook" aria-hidden="true"></i></a>'
             }
 
             $("#member_adviser .member__slider").append(
-                
-                    '<div class="member">' +
-                        '<div class="member__image">' +
-                            '<img src="img/team/'+response.advisers[i].image+'" alt="">' +
-                            '<div class="member__social">'+ social +'</div>' +
-                        '</div>' +
-                        '<div class="member__info">' +
-                            '<div class="member__name">'+ response.advisers[i].name +'</div>' +
-                            '<div class="member__position">'+ response.advisers[i].position +'</div>' +
-                            '<div class="member__text">' + response.advisers[i].text + '</div>' +
-                        '</div>' +
-                    '</div>'
+
+                '<div class="member">' +
+                '<div class="member__image">' +
+                '<img src="/ru/img/team/' + response.advisers[i].image + '" alt="">' +
+                '<div class="member__social">' + social + '</div>' +
+                '</div>' +
+                '<div class="member__info">' +
+                '<div class="member__name">' + response.advisers[i].name + '</div>' +
+                '<div class="member__position">' + response.advisers[i].position + '</div>' +
+                '<div class="member__text">' + response.advisers[i].text + '</div>' +
+                '</div>' +
+                '</div>'
             );
 
         });
 
-        $.each( response.members, function( i, val ) {
+        $.each(response.members, function (i, val) {
 
 
             var social = '';
 
             if (response.members[i].soc_1 != '') {
-                social += '<a target="blank" class="member__link" href="'+response.members[i].soc_1+'"><i class="fa fa-linkedin" aria-hidden="true"></i></a>'
+                social += '<a target="blank" class="member__link" href="' + response.members[i].soc_1 + '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>'
             }
 
             if (response.members[i].soc_2 != '') {
-                social += '<a target="blank" class="member__link" href="'+response.members[i].soc_2+'"><i class="fa fa-twitter" aria-hidden="true"></i></a>'
+                social += '<a target="blank" class="member__link" href="' + response.members[i].soc_2 + '"><i class="fa fa-twitter" aria-hidden="true"></i></a>'
             }
 
             if (response.members[i].soc_3 != '') {
-                social += '<a target="blank" class="member__link" href="'+response.members[i].soc_3+'"><i class="fa fa-facebook" aria-hidden="true"></i></a>'
+                social += '<a target="blank" class="member__link" href="' + response.members[i].soc_3 + '"><i class="fa fa-facebook" aria-hidden="true"></i></a>'
             }
 
             $("#member_team .member__slider").append(
-                
+
                 '<div class="member">' +
-                    '<div class="member__image">' +
-                        '<img src="img/team/'+response.members[i].image+'" alt="">' +
-                        '<div class="member__social">'+ social +'</div>' +
-                    '</div>' +
-                    '<div class="member__info">' +
-                        '<div class="member__name">'+ response.members[i].name +'</div>' +
-                        '<div class="member__position">'+ response.members[i].position +'</div>' +
-                        '<div class="member__text">' + response.members[i].text + '</div>' +
-                    '</div>' +
+                '<div class="member__image">' +
+                '<img src="/ru/img/team/' + response.members[i].image + '" alt="">' +
+                '<div class="member__social">' + social + '</div>' +
+                '</div>' +
+                '<div class="member__info">' +
+                '<div class="member__name">' + response.members[i].name + '</div>' +
+                '<div class="member__position">' + response.members[i].position + '</div>' +
+                '<div class="member__text">' + response.members[i].text + '</div>' +
+                '</div>' +
                 '</div>'
             );
 
@@ -479,24 +523,24 @@ $.ajax({
 
 
     },
-    error: function(response) {
+    error: function (response) {
         // console.log(response);
     }
 
 });
 
 $.ajax({
-    url: "faq.json",
+    url: "/ru/faq.json",
     type: "GET",
     cache: false,
-    beforeSend: function() {
-        
-        
+    beforeSend: function () {
+
+
     },
 
-    success: function(response) {
+    success: function (response) {
 
-        $.each( response.main, function( i, val ) {
+        $.each(response.main, function (i, val) {
 
             var collapsed, show;
 
@@ -515,29 +559,29 @@ $.ajax({
 
             $("#accordion_faq").append(
                 '<div class="card">' +
-                    '<div class="card-header" id="headingOne'+i+'">' +
-                         
-                        '<button class="btn btn-link '+collapsed+'" data-toggle="collapse" data-target="#collapseOne'+i+'" aria-expanded="true" aria-controls="collapseOne'+i+'">'+response.main[i].question+'<span></span></button>' +
-                         
-                    '</div>' +
+                '<div class="card-header" id="headingOne' + i + '">' +
 
-                    '<div id="collapseOne'+i+'" class="collapse '+show+'" aria-labelledby="headingOne'+i+'" data-parent="#accordion_faq">' +
-                        '<div class="card-body">'+ response.main[i].answer +'</div>' +
-                    '</div>'+
+                '<button class="btn btn-link ' + collapsed + '" data-toggle="collapse" data-target="#collapseOne' + i + '" aria-expanded="true" aria-controls="collapseOne' + i + '">' + response.main[i].question + '<span></span></button>' +
+
+                '</div>' +
+
+                '<div id="collapseOne' + i + '" class="collapse ' + show + '" aria-labelledby="headingOne' + i + '" data-parent="#accordion_faq">' +
+                '<div class="card-body">' + response.main[i].answer + '</div>' +
+                '</div>' +
                 '</div>'
-            ); 
+            );
 
         });
 
 
     },
-    error: function(response) {
+    error: function (response) {
         // console.log(response);
     }
 
 });
 
-$('.section__video .play__video').click(function(e){
+$('.section__video .play__video').click(function (e) {
     e.preventDefault();
 
 
@@ -554,7 +598,7 @@ $('.section__video .play__video').click(function(e){
 
 
 
-$('.blog__item .play__video').click(function(e){
+$('.blog__item .play__video').click(function (e) {
     e.preventDefault();
 
     $('.overlay').fadeIn();
@@ -565,7 +609,7 @@ $('.blog__item .play__video').click(function(e){
     return false;
 });
 
-$('.overlay').click(function(e){
+$('.overlay').click(function (e) {
     e.preventDefault();
 
     $('iframe').attr('src', '');
@@ -576,7 +620,7 @@ $('.overlay').click(function(e){
     return false;
 });
 
-$('.subscribe__overlay a.close').click(function(e){
+$('.subscribe__overlay a.close').click(function (e) {
     e.preventDefault();
 
     $('.subscribe__overlay').fadeOut(400);
@@ -585,7 +629,7 @@ $('.subscribe__overlay a.close').click(function(e){
 });
 
 
-$("#subscribeForm").submit(function( e ) {
+$("#subscribeForm").submit(function (e) {
 
     e.preventDefault();
 
@@ -594,18 +638,18 @@ $("#subscribeForm").submit(function( e ) {
     // console.log(form);
     ajax(form);
     return false;
-    
-}); 
 
-$('.history__arrow').click(function(e){
+});
+
+$('.history__arrow').click(function (e) {
     e.preventDefault();
 
     $('.roadmap__history').slideToggle(900);
     $(this).toggleClass('collapse');
-    if($(this).hasClass('collapse')) {
+    if ($(this).hasClass('collapse')) {
         $('.history__arrow span').text('Hide Our History');
         $('.history__arrow .fa').removeClass('fa-angle-double-up').addClass('fa-angle-double-down');
-    }else {
+    } else {
         $('.history__arrow span').text('Show Our History');
         $('.history__arrow .fa').removeClass('fa-angle-double-down').addClass('fa-angle-double-up');
     }
@@ -615,8 +659,8 @@ $('.history__arrow').click(function(e){
 
 
 
-function ajax(data){
-    $.post('http://vtine.ru/wifi7/mail.php', data, function(data){
+function ajax(data) {
+    $.post('http://vtine.ru/wifi7/mail.php', data, function (data) {
         data = JSON.parse(data);
 
         if (data.status == 'success') {
@@ -625,7 +669,7 @@ function ajax(data){
         } else {
             $('.block__content').text(data.text);
             $('.message__block').fadeIn();
-            setTimeout(function(){
+            setTimeout(function () {
                 $('.message__block').fadeOut();
             }, 1500);
         }

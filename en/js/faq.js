@@ -33,7 +33,7 @@ $(window).on('load', function () {
                 }
             }
         }
-   
+
 });
 
 $(window).scroll(function() {
@@ -58,7 +58,7 @@ $(window).scroll(function() {
 
     if (scroll >= 20) {
         $('#navigation').addClass('fixed');
-        
+
     } else {
         $('#navigation').removeClass('fixed');
     }
@@ -68,12 +68,12 @@ $(window).scroll(function() {
 
 
 $.ajax({
-    url: "faq.json",
+    url: "/en/faq.json",
     type: "GET",
     cache: false,
     beforeSend: function() {
-        
-        
+
+
     },
 
     success: function(response) {
@@ -102,17 +102,17 @@ $.ajax({
                     $("#accordion_faq--full").append(
                         '<div class="card">' +
                             '<div class="card-header" id="headingOne'+i+'_'+ii+'">' +
-                                 
+
                                 '<button class="btn btn-link '+collapsed+'" data-toggle="collapse" data-target="#collapseOne'+i+'_'+ii+'" aria-expanded="true" aria-controls="collapseOne' +i+'_'+ii+ '">'+v.question+'<span></span></button>' +
-                                 
+
                             '</div>' +
 
                             '<div id="collapseOne'+i+'_'+ii+'" class="collapse '+show+'" aria-labelledby="headingOne'+i+'_'+ii+'" data-parent="#accordion_faq--full">' +
                                 '<div class="card-body">'+ v.answer +'</div>' +
                             '</div>'+
                         '</div>'
-                    ); 
-                } 
+                    );
+                }
             });
         });
 

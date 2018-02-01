@@ -145,21 +145,21 @@ $(window).on('load', function () {
             });
         },1900);
 
-        
+
         // setTimeout(function(){
         //         $('.subscribe__overlay').fadeIn(400);
         //     },1000);
-        
+
 
         if (cookie == null || cookie == undefined) {
-        
-            
+
+
             setTimeout(function(){
                 $('.subscribe__overlay').fadeIn(400);
             },5000);
 
             setCookie('subscribe', '1', {expires:0});
-            
+
         }
 
         var item = document.getElementById('company');
@@ -186,7 +186,7 @@ $(window).on('load', function () {
             }, 1000);
 
         });
-        
+
 });
 
 
@@ -214,7 +214,7 @@ $(window).scroll(function() {
     var body_ = Math.round(body) / 100;
 
     var items = $('.section__animated');
-            
+
     for (var i = 0; i < items.length; i++) {
         if($('.section__animated:eq('+i+')').offset().top - scroll <= $(window).height() / 1.2) {
             $('.section__animated:eq('+i+')').animate({
@@ -244,13 +244,13 @@ $(window).scroll(function() {
     $('.body__bg').css({
         'top':  - (scroll / body_ ) + '%'
     });
-    
+
 
     if($('.section__structure--ico').offset().top - scroll <= $(window).height() / 1.2) {
-        
+
 
         var dataset = [
-            
+
             { name: 'FUTURE DEVELOP',   count: $('.chart .progressbar:eq(0)').data('value'), },
             { name: 'ICO ',             count: $('.chart .progressbar:eq(1)').data('value'), },
             { name: 'PRE-ICO',          count: $('.chart .progressbar:eq(2)').data('value'), },
@@ -276,10 +276,10 @@ $(window).scroll(function() {
             status = 0;
         }
 
-        
+
 
         var items = $('.chart').find('li.progressbar');
-                    
+
         setTimeout(function(){
 
             for (var i = 0; i < items.length; i++) {
@@ -298,10 +298,10 @@ $(window).scroll(function() {
     }
 
     if($('.section__structure--cost').offset().top - scroll <= $(window).height() / 1.2) {
-        
+
 
         var dataset = [
-            
+
             { name: 'FUTURE DEVELOP',   count: $('.chart_1 .progressbar:eq(0)').data('value'), },
             { name: 'ICO ',             count: $('.chart_1 .progressbar:eq(1)').data('value'), },
             { name: 'PRE-ICO',          count: $('.chart_1 .progressbar:eq(2)').data('value'), },
@@ -327,12 +327,12 @@ $(window).scroll(function() {
             status_1 = 0;
         }
 
-        
+
 
         var items = $('.chart_1').find('li.progressbar');
-                    
+
         setTimeout(function(){
-            
+
             for (var i = 0; i < items.length; i++) {
 
             $('.chart_1 li.progressbar:eq('+i+')').css({
@@ -366,7 +366,7 @@ $(window).scroll(function() {
 
     if (scroll >= 20) {
         $('#navigation').addClass('fixed');
-        
+
     } else {
         $('#navigation').removeClass('fixed');
     }
@@ -374,12 +374,12 @@ $(window).scroll(function() {
 });
 
 $.ajax({
-    url: "progress.json",
+    url: "/en/progress.json",
     type: "GET",
     cache: false,
     beforeSend: function() {
-        
-        
+
+
     },
 
     success: function(response) {
@@ -399,12 +399,12 @@ $.ajax({
 });
 
 $.ajax({
-    url: "team.json",
+    url: "/en/team.json",
     type: "GET",
     cache: false,
     beforeSend: function() {
-        
-        
+
+
     },
 
     success: function(response) {
@@ -426,10 +426,10 @@ $.ajax({
             }
 
             $("#member_adviser .member__slider").append(
-                
+
                     '<div class="member">' +
                         '<div class="member__image">' +
-                            '<img src="img/team/'+response.advisers[i].image+'" alt="">' +
+                            '<img src="/en/img/team/'+response.advisers[i].image+'" alt="">' +
                             '<div class="member__social">'+ social +'</div>' +
                         '</div>' +
                         '<div class="member__info">' +
@@ -460,10 +460,10 @@ $.ajax({
             }
 
             $("#member_team .member__slider").append(
-                
+
                 '<div class="member">' +
                     '<div class="member__image">' +
-                        '<img src="img/team/'+response.members[i].image+'" alt="">' +
+                        '<img src="/en/img/team/'+response.members[i].image+'" alt="">' +
                         '<div class="member__social">'+ social +'</div>' +
                     '</div>' +
                     '<div class="member__info">' +
@@ -486,12 +486,12 @@ $.ajax({
 });
 
 $.ajax({
-    url: "faq.json",
+    url: "/en/faq.json",
     type: "GET",
     cache: false,
     beforeSend: function() {
-        
-        
+
+
     },
 
     success: function(response) {
@@ -516,16 +516,16 @@ $.ajax({
             $("#accordion_faq").append(
                 '<div class="card">' +
                     '<div class="card-header" id="headingOne'+i+'">' +
-                         
+
                         '<button class="btn btn-link '+collapsed+'" data-toggle="collapse" data-target="#collapseOne'+i+'" aria-expanded="true" aria-controls="collapseOne'+i+'">'+response.main[i].question+'<span></span></button>' +
-                         
+
                     '</div>' +
 
                     '<div id="collapseOne'+i+'" class="collapse '+show+'" aria-labelledby="headingOne'+i+'" data-parent="#accordion_faq">' +
                         '<div class="card-body">'+ response.main[i].answer +'</div>' +
                     '</div>'+
                 '</div>'
-            ); 
+            );
 
         });
 
@@ -594,8 +594,8 @@ $("#subscribeForm").submit(function( e ) {
     // console.log(form);
     ajax(form);
     return false;
-    
-}); 
+
+});
 
 $('.history__arrow').click(function(e){
     e.preventDefault();
@@ -616,7 +616,7 @@ $('.history__arrow').click(function(e){
 
 
 function ajax(data){
-    $.post('http://vtine.ru/wifi7/mail.php', data, function(data){
+    $.post('/en/mail.php', data, function(data){
         data = JSON.parse(data);
 
         if (data.status == 'success') {
@@ -634,7 +634,7 @@ function ajax(data){
 
 }
 
-// 
+//
 
 
 
