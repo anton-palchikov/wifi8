@@ -1321,11 +1321,11 @@ hr {
   width: 100%;
   height: auto;
   top: 0px;
-  background: -webkit-gradient(linear, right top, left top, from(#da1845), to(#e74c3c));
-  background: -webkit-linear-gradient(right, #da1845 0%, #e74c3c 100%);
-  background: -moz-linear-gradient(right, #da1845 0%, #e74c3c 100%);
-  background: -o-linear-gradient(right, #da1845 0%, #e74c3c 100%);
-  background: linear-gradient(to left, #da1845 0%, #e74c3c 100%);;
+  background: -webkit-gradient(linear, right top, left top, from(#4181b9), to(#a83b6b));
+  background: -webkit-linear-gradient(right, #4181b9 0%, #a83b6b 100%);
+  background: -moz-linear-gradient(right, #4181b9 0%, #a83b6b 100%);
+  background: -o-linear-gradient(right, #4181b9 0%, #a83b6b 100%);
+  background: linear-gradient(to left, #4181b9 0%, #a83b6b 100%);
   padding: 10px 0px;
   text-align: center;
 }
