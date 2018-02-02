@@ -1,188 +1,168 @@
 {
-  "advisers": [
-      {
-          "name": "Dmitry Dain",
-          "position": "Adviser",
-          "text": "Outstanding cryptographer. Member of the world's cryptographers' association. A developer of Wi-Fi and LTE technologies, owner and founder of 'Virgil Security' (USA), a company specializing in cryptography and encryption.",
-          "image": "member1.png",
-          "soc_1": "http://linkedin.com/in/dmitrydain",
-          "soc_2": "https://twitter.com/dmitrydain",
-          "soc_3": ""
-      },
-      {
-          "name": "Fred Ledbetter",
-          "position": "Adviser",
-          "text": "CEO Imaginet/Czech Telecom, CCO Virgin Connect, CMO Golden Telecom – executive management in WiFi, Internet, wireless, broadband and mobile in large and medium firms and start ups.",
-          "image": "member2.png",
-          "soc_1": "https://linkedin.com/in/fredledbetter",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Thierry De Gorter",
-          "position": "Adviser",
-          "text": "Has a Princeton University degree in corporate finance. Fascination by modern fin tech, lead him to the deep commitment to the blockchain technology. Currently advising and developing decentralized infrastructure projects. Thierry is bitcoin enthusiast and philanthropist.",
-          "image": "member16.png",
-          "soc_1": "https://www.linkedin.com/in/thierry-de-gorter-7088a2a0/",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Yagub Rahimov",
-          "position": "Media Adviser ",
-          "text": "CEO/Co-founder - 7marketz Inc. Group, Yagub Rahimov is serial entrepreneur operating within FinTech ecosystem. Investing since the age of 16, Yagub is an award winning trader and a savvy Crypto/Bitcoin investor since mid-2009. He has a vision that machine learning combined with the Blockchain technology will define the future of the FinTech ecosystem.",
-          "image": "member20.jpg",
-          "soc_1": "https://www.linkedin.com/in/yrahimov/",
-          "soc_2": "https://twitter.com/yrahimov",
-          "soc_3": "https://www.facebook.com/yrahimov"
-      },
-      {
-          "name": "Evgeny Alekhin",
-          "position": "Adviser",
-          "text": "Serial entrepreneur, 12 years experience in business. Visionary, innovator, author of creative business concepts, start-ups, project manager, investor, blockchain advisor Competences: ICO packaging and launch, strategic planning, product development and management, design, mentoring, advising, project management, investor relations, marketing, creativity, loyalty programs, blockchain community networking Clients and partners: Adidas, Mail.Ru Group, Gazprom, Mirax Group, Western Digitales, Malina, Rosatom, Sky Club, Wolka, Topgun, Maison Dellos",
-          "image": "member17.png",
-          "soc_1": "",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Elmar Malikov",
-          "position": "Adviser",
-          "text": "Serial entrepreneur for the last 15 years, businesses built from 0 to 12 000 000 USD Experience in multinational companies in top positions for 10 years Certified master-coach, coach trainer, business trainer, master of NLP, NLP trainer Key competences, teams and projects scoring, negotiation, startups, crisis management, ICO packaging and launch, fund raising, team management, coaching, idea generation and creativity, strategy development, blockchain advisor",
-          "image": "member18.png",
-          "soc_1": "",
-          "soc_2": "",
-          "soc_3": ""
-      }
-   ],
-   "members": [
-      {
-          "name": "Ilya Yashin",
-          "position": "Co-Founder & CEO",
-          "text": "Entrepreneur, over 17 year in IT. Co-founder of Adrenta and of Radius Wi-Fi.",
-          "image": "member3.jpg",
-          "soc_1": "https://www.linkedin.com/in/%D0%B8%D0%BB%D1%8C%D1%8F-%D1%8F%D1%88%D0%B8%D0%BD-354b8295/",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/isyashin"
-      },
-      {
-          "name": "Yan Sepiashvili",
-          "position": "Co-Founder",
-          "text": "Entrepreneur, PhD in Medicine, over 10 year in IT, advertising and real estate projects. Managing partner and co-founder of the Adrenta and Radius Wi-Fi services.",
-          "image": "member4.png",
-          "soc_1": "https://www.linkedin.com/in/yan-sepiashvily-1aa9b3153/",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/yan.sepiah"
-      },
-      {
-          "name": "Dmitry Koleznev",
-          "position": "Chief Operation Officer",
-          "text": "Previously General Director and stock-holder of WorldTelecom.Prior General Director and stock-holder of National Payment System and Delta Telecom.",
-          "image": "member5.png",
-          "soc_1": "https://www.linkedin.com/in/dmitry-koleznev-581742153/",
-          "soc_2": "",
-          "soc_3": "https://m.facebook.com/dmitry.koleznev.5"
-      },
-      {
-          "name": "Larry Cameron",
-          "position": "Technical Information Security Officer",
-          "text": "Chief Technology Officer with a proven track record in the information technology industry. Demonstrated skills in working with Data Centers, Systems Architecture, Management, Support and Cyber Security",
-          "image": "member11.png",
-          "soc_1": "https://www.linkedin.com/in/larrycameron80/",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Anastasia Prikazchikova",
-          "position": "Marketing & PR",
-          "text": "Has extensive experience in managing and developing marketing solutions for start up projects in Russia and abroad. The founder of the charitable foundation 'Gift to the Angel'.",
-          "image": "member15.png",
-          "soc_1": "https://www.linkedin.com/in/anastasia-prikazchikova-a732bb157",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/anastasia.kh.79"
-      },
-      {
-          "name": "Tim Kosykh",
-          "position": "CBDO",
-          "text": "Tech enthusiast and cosmopolite. Founder of a few IT startups in Ireland. Managed multiple technological projects in Europe, Asia, and USA. Believes in technological singularity.",
-          "image": "member9.png",
-          "soc_1": "https://www.linkedin.com/in/timkosykh",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/tim.kosykh"
-      },
-      {
-          "name": "Anand Gupta",
-          "position": "Big Data strategy",
-          "text": "Graduate of the Indian Institute of Technology. Extensive experience in Big Data solutions for Nokia and Mitel",
-          "image": "member12.png",
-          "soc_1": "https://www.linkedin.com/in/anand-gupta-438151/",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Yuri Polovinkin",
-          "position": "Technical Director",
-          "text": "Launch of Wi-Fi network in the Moscow Metro. Developed and launched his own hotspot solution. Participated in development and implementation of information systems in major companies.",
-          "image": "member6.jpg",
-          "soc_1": "https://www.linkedin.com/in/yury-polovinkin-b0022535",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/yury.polovinkin"
-      },
-      {
-          "name": "Bhavik Limbani",
-          "position": "App Developer",
-          "text": "Master in computer science. Mobile App Developer, Web Developer, Java, Blockchain Developer",
-          "image": "member13.png",
-          "soc_1": "https://www.linkedin.com/in/bhaviklimbani/",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Aleksandr Vinogradov",
-          "position": "Commercial manager",
-          "text": "Lead expert in the Telecom sector supervised sales and products.",
-          "image": "member7.png",
-          "soc_1": "https://www.linkedin.com/in/alavinogradov",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Jagadish Channagiri",
-          "position": "Big Data expert",
-          "text": "Software Executive with broad experience in product development for Big Data solutions.",
-          "image": "member14.png",
-          "soc_1": "https://www.linkedin.com/in/jagadishchannagiri/",
-          "soc_2": "",
-          "soc_3": ""
-      },
-      {
-          "name": "Evgeniy Khashin",
-          "position": "CTO & Strategy",
-          "text": "Co-founder of the first Russian PaaS 'Dokkur', CTO of the infrastructure provider 'Swanager'.",
-          "image": "member8.png",
-          "soc_1": "https://ru.linkedin.com/in/adastreamer",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/adastreamer"
-      },
-      {
-          "name": "Mohamed Shoieb",
-          "position": "Project manager",
-          "text": "Investing financial services and Portfolio management. Making partnerships and business development. Development of investment services (PAMM accounts) and C Trader. CFDs on Forex Contract. Futures and Shares trading.",
-          "image": "member10.png",
-          "soc_1": "https://www.linkedin.com/in/ACoAABC3iYQBDFs5hfcaKSFXzJ6ogk8jItQLmOk/",
-          "soc_2": "",
-          "soc_3": "https://www.facebook.com/mohamedsshoieb"
-      },
-      {
-          "name": "Alisha Golden",
-          "position": "Marketing & PR in North America",
-          "text": "A growth strategist and media maven with 11 years of  experience across 3 continents growing and scaling start-ups and brands. Alisha is well versed in generating triple bottom line for clients as well as harnessing the vehicle technology, investment, and mainstream media to drive consumer engagement. Alisha’s clients have been featured in Fast Company, INC, Wired, Forbes, Origin Magazine, ABC news, The Huffington Post, The New York Daily News as well as developed brand partnerships with the likes of silicon valley’s travel, tech giant, Gogobot, Let’s Collaborate NYC, KIND snacks, NBC Universal, The Pollination Project, Mashable, The UN, WEF, ChooseATL, and AirBnB.",
-          "image": "member19.jpg",
-          "soc_1": "",
-          "soc_2": "",
-          "soc_3": ""
-      }
+    "advisers": [{
+            "name": "Dmitry Dain",
+            "position": "Adviser",
+            "text": "Outstanding cryptographer. Member of the world's cryptographers' association. A developer of Wi-Fi and LTE technologies, owner and founder of 'Virgil Security' (USA), a company specializing in cryptography and encryption.",
+            "image": "member1.png",
+            "soc_1": "http://linkedin.com/in/dmitrydain",
+            "soc_2": "https://twitter.com/dmitrydain",
+            "soc_3": ""
+        },
+        {
+            "name": "Fred Ledbetter",
+            "position": "Adviser",
+            "text": "CEO Imaginet/Czech Telecom, CCO Virgin Connect, CMO Golden Telecom – executive management in WiFi, Internet, wireless, broadband and mobile in large and medium firms and start ups.",
+            "image": "member2.png",
+            "soc_1": "https://linkedin.com/in/fredledbetter",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Thierry De Gorter",
+            "position": "Adviser",
+            "text": "Has a Princeton University degree in corporate finance. Fascination by modern fin tech, lead him to the deep commitment to the blockchain technology. Currently advising and developing decentralized infrastructure projects. Thierry is bitcoin enthusiast and philanthropist.",
+            "image": "member16.png",
+            "soc_1": "https://www.linkedin.com/in/thierry-de-gorter-7088a2a0/",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Yagub Rahimov",
+            "position": "Media Adviser ",
+            "text": "CEO/Co-founder - 7marketz Inc. Group, Yagub Rahimov is serial entrepreneur operating within FinTech ecosystem. Investing since the age of 16, Yagub is an award winning trader and a savvy Crypto/Bitcoin investor since mid-2009. He has a vision that machine learning combined with the Blockchain technology will define the future of the FinTech ecosystem.",
+            "image": "member20.jpg",
+            "soc_1": "https://www.linkedin.com/in/yrahimov/",
+            "soc_2": "https://twitter.com/yrahimov",
+            "soc_3": "https://www.facebook.com/yrahimov"
+        }
+    ],
+    "members": [{
+            "name": "Ilya Yashin",
+            "position": "Co-Founder & CEO",
+            "text": "Entrepreneur, over 17 year in IT. Co-founder of Adrenta and of Radius Wi-Fi.",
+            "image": "member3.jpg",
+            "soc_1": "https://www.linkedin.com/in/%D0%B8%D0%BB%D1%8C%D1%8F-%D1%8F%D1%88%D0%B8%D0%BD-354b8295/",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/isyashin"
+        },
+        {
+            "name": "Yan Sepiashvili",
+            "position": "Co-Founder",
+            "text": "Entrepreneur, PhD in Medicine, over 10 year in IT, advertising and real estate projects. Managing partner and co-founder of the Adrenta and Radius Wi-Fi services.",
+            "image": "member4.png",
+            "soc_1": "https://www.linkedin.com/in/yan-sepiashvily-1aa9b3153/",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/yan.sepiah"
+        },
+        {
+            "name": "Dmitry Koleznev",
+            "position": "Chief Operation Officer",
+            "text": "Previously General Director and stock-holder of WorldTelecom.Prior General Director and stock-holder of National Payment System and Delta Telecom.",
+            "image": "member5.png",
+            "soc_1": "https://www.linkedin.com/in/dmitry-koleznev-581742153/",
+            "soc_2": "",
+            "soc_3": "https://m.facebook.com/dmitry.koleznev.5"
+        },
+        {
+            "name": "Larry Cameron",
+            "position": "Technical Information Security Officer",
+            "text": "Chief Technology Officer with a proven track record in the information technology industry. Demonstrated skills in working with Data Centers, Systems Architecture, Management, Support and Cyber Security",
+            "image": "member11.png",
+            "soc_1": "https://www.linkedin.com/in/larrycameron80/",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Anastasia Prikazchikova",
+            "position": "Marketing & PR",
+            "text": "Has extensive experience in managing and developing marketing solutions for start up projects in Russia and abroad. The founder of the charitable foundation 'Gift to the Angel'.",
+            "image": "member15.png",
+            "soc_1": "https://www.linkedin.com/in/anastasia-prikazchikova-a732bb157",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/anastasia.kh.79"
+        },
+        {
+            "name": "Tim Kosykh",
+            "position": "CBDO",
+            "text": "Tech enthusiast and cosmopolite. Founder of a few IT startups in Ireland. Managed multiple technological projects in Europe, Asia, and USA. Believes in technological singularity.",
+            "image": "member9.png",
+            "soc_1": "https://www.linkedin.com/in/timkosykh",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/tim.kosykh"
+        },
+        {
+            "name": "Anand Gupta",
+            "position": "Big Data strategy",
+            "text": "Graduate of the Indian Institute of Technology. Extensive experience in Big Data solutions for Nokia and Mitel",
+            "image": "member12.png",
+            "soc_1": "https://www.linkedin.com/in/anand-gupta-438151/",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Yuri Polovinkin",
+            "position": "Technical Director",
+            "text": "Launch of Wi-Fi network in the Moscow Metro. Developed and launched his own hotspot solution. Participated in development and implementation of information systems in major companies.",
+            "image": "member6.jpg",
+            "soc_1": "https://www.linkedin.com/in/yury-polovinkin-b0022535",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/yury.polovinkin"
+        },
+        {
+            "name": "Bhavik Limbani",
+            "position": "App Developer",
+            "text": "Master in computer science. Mobile App Developer, Web Developer, Java, Blockchain Developer",
+            "image": "member13.png",
+            "soc_1": "https://www.linkedin.com/in/bhaviklimbani/",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Aleksandr Vinogradov",
+            "position": "Commercial manager",
+            "text": "Lead expert in the Telecom sector supervised sales and products.",
+            "image": "member7.png",
+            "soc_1": "https://www.linkedin.com/in/alavinogradov",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Jagadish Channagiri",
+            "position": "Big Data expert",
+            "text": "Software Executive with broad experience in product development for Big Data solutions.",
+            "image": "member14.png",
+            "soc_1": "https://www.linkedin.com/in/jagadishchannagiri/",
+            "soc_2": "",
+            "soc_3": ""
+        },
+        {
+            "name": "Evgeniy Khashin",
+            "position": "CTO & Strategy",
+            "text": "Co-founder of the first Russian PaaS 'Dokkur', CTO of the infrastructure provider 'Swanager'.",
+            "image": "member8.png",
+            "soc_1": "https://ru.linkedin.com/in/adastreamer",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/adastreamer"
+        },
+        {
+            "name": "Mohamed Shoieb",
+            "position": "Project manager",
+            "text": "Investing financial services and Portfolio management. Making partnerships and business development. Development of investment services (PAMM accounts) and C Trader. CFDs on Forex Contract. Futures and Shares trading.",
+            "image": "member10.png",
+            "soc_1": "https://www.linkedin.com/in/ACoAABC3iYQBDFs5hfcaKSFXzJ6ogk8jItQLmOk/",
+            "soc_2": "",
+            "soc_3": "https://www.facebook.com/mohamedsshoieb"
+        },
+        {
+            "name": "Alisha Golden",
+            "position": "Marketing & PR in North America",
+            "text": "A growth strategist and media maven with 11 years of  experience across 3 continents growing and scaling start-ups and brands. Alisha is well versed in generating triple bottom line for clients as well as harnessing the vehicle technology, investment, and mainstream media to drive consumer engagement. Alisha’s clients have been featured in Fast Company, INC, Wired, Forbes, Origin Magazine, ABC news, The Huffington Post, The New York Daily News as well as developed brand partnerships with the likes of silicon valley’s travel, tech giant, Gogobot, Let’s Collaborate NYC, KIND snacks, NBC Universal, The Pollination Project, Mashable, The UN, WEF, ChooseATL, and AirBnB.",
+            "image": "member19.jpg",
+            "soc_1": "",
+            "soc_2": "",
+            "soc_3": ""
+        }
 
-   ]
+    ]
 
 }
