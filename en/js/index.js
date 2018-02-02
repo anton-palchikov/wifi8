@@ -13,179 +13,179 @@ var cookie = getCookie('subscribe');
 
 $(window).on('load', function () {
 
-        $('#preloader').fadeOut();
+    $('#preloader').fadeOut();
 
-        $('.header__earth').animate({
-            width: '1400px',
-            height: '1400px',
-            marginLeft: '-700px',
-            top: '45vh',
+    $('.header__earth').animate({
+        width: '1400px',
+        height: '1400px',
+        marginLeft: '-700px',
+        top: '45vh',
+    }, 1000);
+
+    setTimeout(function(){
+
+        $('.section__content--faq .section__faq').animate({
+            opacity: 1,
         }, 1000);
 
-        setTimeout(function(){
+        $('.section__content--faq .section__title').animate({
+            left: 0,
+            opacity: .4
+        }, 1000)
 
-            $('.section__content--faq .section__faq').animate({
-                opacity: 1,
-            }, 1000);
-
-            $('.section__content--faq .section__title').animate({
-                left: 0,
-                opacity: .4
-            }, 1000)
-
-            $('.header').css({
-                backgroundPosition: '50% 20%',
-                opacity: 1
-            });
-
-            $('.header__text').css({
-                opacity: 1,
-                bottom: 0,
-            });
-
-            $('.header__btn--1').css({
-                opacity: 1,
-                left: 0,
-            });
-
-            $('.header__btn--2').css({
-                opacity: 1,
-                right: 0,
-            });
-
-            $('.navbar').animate({
-                opacity: 1
-            }, 1000);
-
-        },400);
-
-
-
-        setTimeout(function(){
-            $('.header__title').animate({
-                opacity: .4,
-                top: 0
-            }, 1000);
-        },500);
-
-        setTimeout(function(){
-            $('.header__title--sub').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },550);
-
-        setTimeout(function(){
-            $('.countdown__title').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },650);
-
-        setTimeout(function(){
-            $('.countdown__clock').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },650);
-
-        setTimeout(function(){
-            $('.btn__buy').animate({
-                opacity: 1,
-                top: 0
-            }, 1000);
-        },650, function() {
-            $('.border-blik').css({
-                opacity: 1
-            });
+        $('.header').css({
+            backgroundPosition: '50% 20%',
+            opacity: 1
         });
 
-        // SOCIAL
+        $('.header__text').css({
+            opacity: 1,
+            bottom: 0,
+        });
+
+        $('.header__btn--1').css({
+            opacity: 1,
+            left: 0,
+        });
+
+        $('.header__btn--2').css({
+            opacity: 1,
+            right: 0,
+        });
+
+        $('.navbar').animate({
+            opacity: 1
+        }, 1000);
+
+    },400);
+
+
+
+    setTimeout(function(){
+        $('.header__title').animate({
+            opacity: .4,
+            top: 0
+        }, 1000);
+    },500);
+
+    setTimeout(function(){
+        $('.header__title--sub').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    },550);
+
+    setTimeout(function(){
+        $('.countdown__title').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    },650);
+
+    setTimeout(function(){
+        $('.countdown__clock').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    },650);
+
+    setTimeout(function(){
+        $('.btn__buy').animate({
+            opacity: 1,
+            top: 0
+        }, 1000);
+    },650, function() {
+        $('.border-blik').css({
+            opacity: 1
+        });
+    });
+
+    // SOCIAL
+
+    setTimeout(function(){
+
+        $('.link--1').css({
+            opacity: 1,
+            transform: 'scale('+1+')'
+        });
+    },1400);
+
+    setTimeout(function(){
+        $('.link--2').css({
+            opacity: 1,
+            transform: 'scale('+1+')'
+        });
+    },1500);
+
+    setTimeout(function(){
+        $('.link--3').css({
+            opacity: 1,
+            transform: 'scale('+1+')'
+        });
+    },1600);
+
+    setTimeout(function(){
+        $('.link--4').css({
+            opacity: 1,
+            transform: 'scale('+1+')'
+        });
+    },1700);
+
+    setTimeout(function(){
+        $('.link--5').css({
+            opacity: 1,
+            transform: 'scale('+1+')'
+        });
+    },1800);
+
+    setTimeout(function(){
+        $('.link--6').css({
+            opacity: 1,
+            transform: 'scale('+1+')'
+        });
+    },1900);
+
+
+    // setTimeout(function(){
+    //         $('.subscribe__overlay').fadeIn(400);
+    //     },1000);
+
+
+    if (cookie == null || cookie == undefined) {
+
 
         setTimeout(function(){
+            $('.subscribe__overlay').fadeIn(400);
+        },5000);
 
-            $('.link--1').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1400);
+        setCookie('subscribe', '1', {expires:0});
 
-        setTimeout(function(){
-            $('.link--2').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1500);
+    }
 
-        setTimeout(function(){
-            $('.link--3').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1600);
+    var item = document.getElementById('company');
 
-        setTimeout(function(){
-            $('.link--4').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1700);
-
-        setTimeout(function(){
-            $('.link--5').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1800);
-
-        setTimeout(function(){
-            $('.link--6').css({
-                opacity: 1,
-                transform: 'scale('+1+')'
-            });
-        },1900);
-
-
-        // setTimeout(function(){
-        //         $('.subscribe__overlay').fadeIn(400);
-        //     },1000);
-
-
-        if (cookie == null || cookie == undefined) {
-
-
-            setTimeout(function(){
-                $('.subscribe__overlay').fadeIn(400);
-            },5000);
-
-            setCookie('subscribe', '1', {expires:0});
-
-        }
-
-        var item = document.getElementById('company');
-
-        if ($(window).width() >= 576) {
-            if (item != null) {
-                var top = item.getBoundingClientRect().top;
-                if (top <= 0) {
-                    $('.btn__pulse--fixed').fadeIn(200);
-                } else {
-                    $('.btn__pulse--fixed').fadeOut(200);
-                }
+    if ($(window).width() >= 576) {
+        if (item != null) {
+            var top = item.getBoundingClientRect().top;
+            if (top <= 0) {
+                $('.btn__pulse--fixed').fadeIn(200);
+            } else {
+                $('.btn__pulse--fixed').fadeOut(200);
             }
         }
+    }
 
-        $(".navbar-desktop, .navbar-collapse").on('click', 'a:not(a[href="blog.html"])', function (e) {
-            e.preventDefault();
+    $(".navbar-desktop, .navbar-collapse").on('click', 'a:not(a[href="blog.html"])', function (e) {
+        e.preventDefault();
 
-            var hash = $(this).attr("href");
-            var target = $(hash);
+        var hash = $(this).attr("href");
+        var target = $(hash);
 
-            $("html, body").animate({
-                scrollTop: target.offset().top - 100
-            }, 1000);
+        $("html, body").animate({
+            scrollTop: target.offset().top - 100
+        }, 1000);
 
-        });
+    });
 
 });
 
@@ -625,7 +625,7 @@ function ajax(data){
         } else {
             $('.block__content').text(data.text);
             $('.message__block').fadeIn();
-            setTimeout(function(){
+            setTimeout(function (){
                 $('.message__block').fadeOut();
             }, 1500);
         }

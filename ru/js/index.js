@@ -660,7 +660,7 @@ $('.history__arrow').click(function (e) {
 
 
 function ajax(data) {
-    $.post('http://vtine.ru/wifi7/mail.php', data, function (data) {
+    $.post('/ru/mail.php', data, function(data){
         data = JSON.parse(data);
 
         if (data.status == 'success') {
