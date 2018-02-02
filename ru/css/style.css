@@ -3756,7 +3756,8 @@ hr {
   }
 }
 
-.section__roadmap .roadmap__wrap .wrap__row:hover .dot {
+.section__roadmap .roadmap__wrap .wrap__row:hover .dot,
+.section__roadmap .roadmap__wrap .wrap__row.active .dot  {
   background: #fff;
   -webkit-box-shadow: 0px 0px 40px 10px rgba(192, 52, 123, 0.6);
   box-shadow: 0px 0px 40px 10px rgba(192, 52, 123, 0.6);
