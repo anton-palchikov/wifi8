@@ -1,0 +1,5 @@
+language: generic
+script: bash deploy/deploy.sh
+env:
+  global:
+  - COMMIT_AUTHOR_EMAIL: "travis@ci.org"
