@@ -82,13 +82,13 @@
     "answer": "No need to buy a new router for World Wi-Fi. Most residential routers are compatible with our software."
   }
     ],
-    "ico": [{
+    "Token Sale": [{
             "question": "When is the PRESALE?",
             "answer": "PRESALE is on from 28 November to 16 March. More info at <a href=\"https://worldwifi.io\">https://worldwifi.io</a>"
         },
         {
-            "question": "When is the ICO?",
-            "answer": "ICO Start/End Date: 18 MARCH / 18 APRIL, 2018"
+            "question": "When is the Token Sale?",
+            "answer": "Token Sale Start/End Date: 18 MARCH / 18 APRIL 2018"
         },
         {
             "question": "Is there a minimum amount of funds you need to raise?",
