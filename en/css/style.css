@@ -1087,7 +1087,8 @@ hr {
 }
 #navigation {
   position: fixed;
-  top: 60px;
+  /*top: 60px;*/
+  top: 20px;
   width: 100%;
   left: 0px;
   z-index: 99999;
@@ -1123,7 +1124,8 @@ hr {
 #navigation.fixed {
   width: 100%;
   left: 0px;
-  top: 44px;
+  /*top: 44px;*/
+  top: 0px;
   padding: 10px 0px;
   position: fixed;
   background: rgba(0, 20, 63, 0.9);
@@ -1189,6 +1191,7 @@ hr {
           justify-content: space-between;
 }
 .missed__block {
+  display: none;
   position: fixed;
   z-index: 99999;
   width: 100%;

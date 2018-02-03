@@ -151,18 +151,18 @@ $(window).on('load', function () {
     //     },1000);
 
 
-    if (cookie == null || cookie == undefined) {
+    // if (cookie == null || cookie == undefined) {
 
 
-        setTimeout(function () {
-            $('.subscribe__overlay').fadeIn(400);
-        }, 5000);
+    //     setTimeout(function () {
+    //         $('.subscribe__overlay').fadeIn(400);
+    //     }, 5000);
 
-        setCookie('subscribe', '1', {
-            expires: 0
-        });
+    //     setCookie('subscribe', '1', {
+    //         expires: 0
+    //     });
 
-    }
+    // }
 
     var item = document.getElementById('company');
 
