@@ -57,7 +57,7 @@ function getTimeRemaining(endtime) {
         'minutes': minutes,
         'seconds': seconds,
         'week': 15 - week,
-        'day': dt.getDay(),
+        'day': day,
     };
 }
 
